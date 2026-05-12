@@ -446,6 +446,16 @@
                         "type": "backbutton"
                     },
                     {
+                        "type": "button",
+                        "name": "EditActivity",
+                        "icon": "fa-user",
+                        "color": "blue",
+                         "form": {
+                            "form": "ActivityForm",
+                            "key": "activitykey"
+                        }
+                    },
+                    {
                         "type": "list",
                         "icon": "fa-user",
                         "color": "blue",
@@ -462,6 +472,16 @@
                 "elementList": [
                     {
                         "type": "backbutton"
+                    },
+                    {
+                        "type": "button",
+                        "name": "EditLocation",
+                        "icon": "fa-user",
+                        "color": "blue",
+                         "form": {
+                            "form": "LocationForm",
+                            "key": "locationKey"
+                        }
                     },
                     {
                         "type": "list",
